@@ -24,6 +24,9 @@ These two programs are largely mutually exclusive at the single-cell level, and 
 I'm including this because it's the more honest and, I think, more useful part of the project. With 14 Leiden clusters spread across only six donors, several clusters turned out to be 95-100% single-donor, a clear sign of batch effect dominating over biology at this sample size. Rather than report cluster-level findings as if they were clean, I validated the one finding that held, the NTRK1/GFRA2 split, at the donor level directly. Small single-cell datasets are genuinely useful, but only if you check whether what you're seeing is biology or a donor artifact before you report it.
 
 ## Repo structure
+notebooks/ # Colab notebook: loading, QC, clustering, marker genes, validation
+data/ # Raw sample CSVs (Nguyen et al. 2021, GSE168243)
+results/ # Marker gene table, donor correlation table, final figure
 
 ## Data source
 
